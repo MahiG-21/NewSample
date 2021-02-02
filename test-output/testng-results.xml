@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[we are using data provider annotationwe are fetching data from excel sheet]]>
+    </line>
+  </reporter-output>
+  <suite name="mySuite" duration-ms="24427" started-at="2021-01-11T21:25:47Z" finished-at="2021-01-11T21:26:12Z">
+    <groups>
+    </groups>
+    <test name="myTests" duration-ms="24427" started-at="2021-01-11T21:25:47Z" finished-at="2021-01-11T21:26:12Z">
+      <class name="GitDemo.Perametrization_xlsx">
+        <test-method status="PASS" signature="startbrowser()[pri:0, instance:GitDemo.Perametrization_xlsx@6193932a]" name="startbrowser" is-config="true" duration-ms="5948" started-at="2021-01-11T21:26:03Z" finished-at="2021-01-11T21:26:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[we are using data provider annotationwe are fetching data from excel sheet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:GitDemo.Perametrization_xlsx@6193932a]" name="wikipagedata" duration-ms="509" started-at="2021-01-11T21:26:10Z" data-provider="testdata" finished-at="2021-01-11T21:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Retype Password ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:GitDemo.Perametrization_xlsx@6193932a]" name="wikipagedata" duration-ms="530" started-at="2021-01-11T21:26:10Z" data-provider="testdata" finished-at="2021-01-11T21:26:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aaaa@gmail.com ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:GitDemo.Perametrization_xlsx@6193932a]" name="wikipagedata" duration-ms="473" started-at="2021-01-11T21:26:11Z" data-provider="testdata" finished-at="2021-01-11T21:26:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bbbb@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+        <test-method status="PASS" signature="wikipagedata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:GitDemo.Perametrization_xlsx@6193932a]" name="wikipagedata" duration-ms="447" started-at="2021-01-11T21:26:11Z" data-provider="testdata" finished-at="2021-01-11T21:26:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[user ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[cccc.gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipagedata -->
+      </class> <!-- GitDemo.Perametrization_xlsx -->
+      <class name="GitDemo.WikiPageTestNG">
+        <test-method status="PASS" signature="setup()[pri:0, instance:GitDemo.WikiPageTestNG@647fd8ce]" name="setup" is-config="true" duration-ms="7639" started-at="2021-01-11T21:25:47Z" finished-at="2021-01-11T21:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="wikipage()[pri:1, instance:GitDemo.WikiPageTestNG@647fd8ce]" name="wikipage" duration-ms="912" started-at="2021-01-11T21:25:55Z" finished-at="2021-01-11T21:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikipage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:GitDemo.WikiPageTestNG@647fd8ce]" name="closeBrowser" is-config="true" duration-ms="89" started-at="2021-01-11T21:25:56Z" finished-at="2021-01-11T21:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:GitDemo.WikiPageTestNG@647fd8ce]" name="setup" is-config="true" duration-ms="5896" started-at="2021-01-11T21:25:56Z" finished-at="2021-01-11T21:26:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mainPage()[pri:2, instance:GitDemo.WikiPageTestNG@647fd8ce]" name="mainPage" duration-ms="1418" started-at="2021-01-11T21:26:02Z" finished-at="2021-01-11T21:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:GitDemo.WikiPageTestNG@647fd8ce]" name="closeBrowser" is-config="true" duration-ms="52" started-at="2021-01-11T21:26:03Z" finished-at="2021-01-11T21:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- GitDemo.WikiPageTestNG -->
+    </test> <!-- myTests -->
+  </suite> <!-- mySuite -->
+</testng-results>
