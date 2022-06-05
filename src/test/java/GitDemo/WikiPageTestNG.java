@@ -18,6 +18,12 @@ public void setup()
     driver.get("https://www.wikipedia.org/");
     driver.manage().window().maximize();
     System.out.println("Before Methos will Execute ");
+    System.out.println("Before Methos will Execute ");
+
+    System.out.println("Before Methos will Execute ");
+
+    System.out.println("Before Methos will Execute ");
+
     }
 @Test(priority =1)
  public void wikipage()
